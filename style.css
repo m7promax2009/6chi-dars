@@ -1,0 +1,50 @@
+
+
+
+/* .karopka {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    transform-style: preserve-3d;
+   
+} */
+
+.karopka {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: yellow;
+    color: aliceblue;
+    animation-name: karopka;
+    animation-duration: 4s;
+    animation-direction: normal;
+    transition: ease-in-out 3ms;
+}
+
+@keyframes karopka {
+    0% {
+        left: 150px;
+        background-color: red;
+    }
+    
+    25% {
+        
+        bottom: 150px;
+        background-color: green;
+    }
+
+    50% {
+        left: 150px;
+        background-color: yellow;
+    }
+
+    75% {
+        top: 100px;
+        background-color: blue;
+    }
+
+    100% {
+      
+    }
+}
